@@ -1,0 +1,67 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+body{
+  background-color: #fafafa;
+  font-family: 'poppins';
+}
+form{
+  margin-top: 6px;
+  border: 3px solid #4b66ff;
+  border-radius: 10px;
+  padding: 30px;
+  position: absolute;
+  
+}
+form::after{
+  content: 'ShipmentType';
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+  background-color: #4561fd;
+  width: 200px;
+  height: 40px;
+  bottom: -20px;
+  left: 20px;
+  border-radius: 8px;
+
+}
+.sub-form 
+input, 
+select, 
+textarea, p{
+  width: 700px !important;
+  margin-left: 60px;
+  
+}
+.sub-form select{
+  border: #4863ff 1px solid;
+}
+.sub-form textarea{
+  border: #4863ff 1px solid;
+}
+.sub-form input{
+  border: #4863ff 1px solid;
+}
+.form__select label{
+  font-size: 20px;
+  color: #353333;
+}
+.form__select{
+  margin-top: 20px;
+}
+.form-check{
+  margin-left: 30px;
+}
+.form-check  label{
+   margin-left: 30px;
+   font-size: 30px;
+   font-weight: 500;
+}
+input[type=radio]{
+  width: 30% ;
+  height: 2em;
+  border: #4863ff 1px solid;
+}
